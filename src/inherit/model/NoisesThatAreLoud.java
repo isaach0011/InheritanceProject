@@ -2,7 +2,7 @@ package inherit.model;
 
 public class NoisesThatAreLoud implements LoudNoises
 {
-	public double clapVolume(Double decibleLevel)
+	public double noiseVolume(Double decibleLevel)
 	{
 		decibleLevel = (((((decibleLevel * 2)/ 2) + 9) - 9) / 3) * 3;
 		return decibleLevel;
