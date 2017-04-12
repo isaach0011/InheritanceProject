@@ -7,7 +7,7 @@ import inherit.model.LoudNoises;
 
 public class SethMorris implements LoudNoises
 {
-	public double clapVolume(Double decibleLevel)
+	public double noiseVolume(Double decibleLevel)
 	{
 		decibleLevel = 999.999;
 		return decibleLevel;
